@@ -1,0 +1,62 @@
+p{
+    padding:0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.navbar-ele{
+    display: flex;
+    align-items: center;
+}
+.nav-element{
+    margin: 0 10px;
+}
+#navbar>button{
+    color: red;
+}
+#house-types{
+    text-align: center;
+    color: rgb(119, 109, 109);
+    /* margin-top: 20px; */
+}
+#house-types:hover{
+    color:rgb(3, 3, 3);
+    border-bottom:solid 3px rgb(194, 186, 186);
+    border-left:solid 1px rgb(194, 186, 186);
+    border-right:solid 1px rgb(194, 186, 186);
+    border-top:solid 1px rgb(194, 186, 186);
+    border-radius: 10px;
+}
+#tax-filter,#filter{
+    border: solid 1px rgb(105, 99, 99);
+}
+#houses-component{
+    margin-top: 50px;
+    display: flex;
+
+} 
+#houses-component>div>div>img{
+    border-radius:10px;
+    height:150px;
+    width:150px;
+}
+#country_price{
+    display:flex;
+    justify-content:space-around;
+}
+#rating-div{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    margin: 10px 10px;
+}
+/* #houses-component>div>.col:hover{
+    transform: scale(0.8);
+    border: solid 1px rgb(128, 128, 128);
+    border-radius: 10px;
+    padding: 30px;
+}    */
