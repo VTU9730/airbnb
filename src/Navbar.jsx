@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="row ">
           <div className="col logo ">
             <p>
-              <h1 class="fa-brands fa-airbnb marging"></h1>
+              <h1 className="fa-brands fa-airbnb marging"></h1>
             </p>
             <p className="marging">
               <strong>airbnb</strong>
@@ -23,11 +23,11 @@ const Navbar = () => {
               <strong>Airbnb your home</strong>
             </p>
             <p className="marging hide">
-              <i class="fa-solid fa-globe thin-dark"></i>
+              <i className="fa-solid fa-globe thin-dark"></i>
             </p>
             <p className="button float">
-              <i class="fa-solid fa-bars marging-right"></i>
-              <i class="fa-solid fa-user"></i>
+              <i className="fa-solid fa-bars marging-right"></i>
+              <i className="fa-solid fa-user"></i>
             </p>
           </div>
         </div>

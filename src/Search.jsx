@@ -22,7 +22,7 @@ function Search() {
           </div>
           <div className="col background">
             <p>
-              <i class="fa-solid fa-magnifying-glass search"></i>
+              <i className="fa-solid fa-magnifying-glass search"></i>
             </p>
             {/* <p>Search</p> */}
           </div>
@@ -34,7 +34,7 @@ function Search() {
             <div className="row border align-items-center">
               <div className="col-2">
                 <p>
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i className="fa-solid fa-magnifying-glass"></i>
                 </p>
               </div>
               <div className="col-10">
@@ -46,7 +46,7 @@ function Search() {
             </div>
           </div>
           <div className="col-2">
-            <i class="fa-solid fa-filter filter"></i>
+            <i className="fa-solid fa-filter filter"></i>
           </div>
         </div>
       </div>
