@@ -1,5 +1,35 @@
 .border{
-    padding:20px;
+    padding:15px 25px;
     border:solid 1px grey;
-   
+    border-radius: 50px;
+}
+
+.thin{
+    opacity:0.4;
+}
+
+.thin-dark{
+    opacity:3;
+}
+.background:hover{
+    background-color: rgb(195, 129, 35);
+    border-radius: 50px;
+}
+
+.search{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:995px) {
+    .hide-first{
+        display: none;
+    }
+}
+@media screen and (min-width:995px) {
+    .hide-second{
+        display: none;
+    }
 }
