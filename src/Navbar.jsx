@@ -2,8 +2,8 @@ import "./Navbar.style.css";
 const Navbar = () => {
   return (
     <>
-      <div className="container navbar-l align-items-center">
-        <div className="row ">
+      <div className="container-fluid navbar-l align-items-center">
+        <div className="row  ">
           <div className="col logo ">
             <p>
               <h1 className="fa-brands fa-airbnb marging"></h1>

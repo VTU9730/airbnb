@@ -1,11 +1,29 @@
 import { houses } from './housesData';
 import './Houses.style.css';
+import { useContext, useEffect, useState } from 'react';
+import { appContext } from './Context';
+const Houses=()=>{
+    const [data, setData] =useState(houses)
+    const {appState,setAppState} = useContext(appContext)
+    console.log(appState.houseType);
 
-const Houses=(props)=>{
+    function renderFilteredHouses(){
+        setData(houses)
+        console.log(data);
+        const filteredHouses = data.filter((house)=>house.type === appState.houseType)
+        setData(filteredHouses);
+    }
+
+    
+    useEffect(()=>{
+        if(appState.houseType) renderFilteredHouses()
+        
+    },[appState])
+    
     return(
         <div className='container center'>
             <div className='row text-center'>
-                {houses.map(house=>{
+                {data.map(house=>{
                         return(
                             <div key={house.id} className="col-3 card-container" >
                                 <img src={house.img} alt={house.id} className='house'/>

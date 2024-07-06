@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "./Carousel.style.css";
 import {data1} from './housesData'
+import { appContext } from "./Context";
 
 function Carousel() {
   const [data, setdata] = useState(data1.slice(0, 5));
   const [currentIndex, setCurrentIndex] = useState(0);
+  const {appState, setAppState} = useContext(appContext)
+
   function handleNext() {
     setCurrentIndex(currentIndex + 1);
     setdata(data1.slice(currentIndex, currentIndex + 5));
@@ -14,6 +17,11 @@ function Carousel() {
     setCurrentIndex(currentIndex - 1);
     setdata(data1.slice(currentIndex, currentIndex + 5));
   }
+
+function handleClick(item){
+  setAppState({...appState,houseType:item.text})
+}
+console.log(appState);
   return (
     <div className="container">
       <div className="row">
@@ -24,7 +32,7 @@ function Carousel() {
           {data.map((item, index) => (
             <span
               key={index}
-              onClick={() => console.log(item.text)}
+              onClick={() => handleClick(item)}
               className="carousel"
             >
               <img src={item.src} alt="building" width="25px" />
