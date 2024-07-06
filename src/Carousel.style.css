@@ -1,0 +1,19 @@
+.button{
+    border:solid 1px grey;
+    border-radius: 5px;
+    background-color: white;
+}
+.carousel:hover{
+    background-color: aliceblue;
+}
+.carousel{
+margin:0 15px;
+padding:10px 15px;
+border-radius: 15px;
+text-align: center;
+}
+
+.carousel-container{
+    display: flex;
+    margin: 20px 0;
+}
