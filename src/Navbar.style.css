@@ -1,0 +1,43 @@
+.navbar-l{
+    margin: 20px 0;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    color:red;
+    font-size: larger;
+}
+
+.flex{
+  display: flex;
+}
+
+.thin{
+    opacity:0.6;
+}
+
+.thin-dark{
+    opacity:0.8;
+}
+
+.marging{
+    margin:0 10px;
+}
+
+.marging-right{
+    margin-right:10px;
+}
+
+.button{
+    border: solid 1px grey;
+    border-radius: 17px;
+    padding: 5px 15px;
+}
+
+@media screen and (max-width:990px) {
+    .hide{
+        display: none;
+    }
+}
+
