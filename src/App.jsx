@@ -1,5 +1,7 @@
+import Filter from "./Filter";
 import Navbar from "./Navbar";
 import Search from "./Search";
+import Houses from "./Houses";
 
 const App=()=> {
    
@@ -7,6 +9,8 @@ const App=()=> {
     <div>
       <Navbar />
       <Search />
+      <Filter />
+      <Houses />
       {/* <hr />
       <HouseTypes handleClick={handleClick} />
       <br />
