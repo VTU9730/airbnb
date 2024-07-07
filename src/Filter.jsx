@@ -1,12 +1,12 @@
 import Carousel from "./Carousel";
 function Filter(){
     return(
-        <div className="container">
-        <div className="row">
-            <div className="col">
-                <Carousel />
+        <div className="container text-center">
+            <div className="row justify-content-center">
+                <div className="col">
+                    <Carousel />
+                </div>
             </div>
-        </div>
         </div>
     )
 }

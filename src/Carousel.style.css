@@ -17,3 +17,9 @@ text-align: center;
     display: flex;
     margin: 20px 0;
 }
+
+@media screen and (max-width:960){
+    .hide{
+        display: none;
+    }
+}

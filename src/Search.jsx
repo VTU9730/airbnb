@@ -16,11 +16,11 @@ function Search() {
             <p className="thin-dark">Check out</p>
             <p className="thin">Add dates</p>
           </div>
-          <div className="col background">
+          <div className="col background border-end">
             <p className="thin-dark">Who</p>
             <p className="thin">Add guests</p>
           </div>
-          <div className="col background">
+          <div className="col background text-center">
             <p>
               <i className="fa-solid fa-magnifying-glass search"></i>
             </p>
@@ -32,7 +32,7 @@ function Search() {
         <div className="row align-items-center">
           <div className="col-10">
             <div className="row border align-items-center">
-              <div className="col-2">
+              <div className="col-2 text-center">
                 <p>
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </p>
@@ -45,7 +45,7 @@ function Search() {
               </div>
             </div>
           </div>
-          <div className="col-2">
+          <div className="col-2 text-center">
             <i className="fa-solid fa-filter filter"></i>
           </div>
         </div>
