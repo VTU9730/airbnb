@@ -25,7 +25,7 @@ const Houses=()=>{
             <div className='row text-center justify-content-center'>
                 {data.map(house=>{
                         return(
-                            <div key={house.id} className="col-3 card-container col-xs-4" >
+                            <div key={house.id} className="col-xs-6 col-md-4 card-container col-lg-3" >
                                 <img src={house.img} alt={house.id} className='house'/>
                                 <div >
                                     <p><strong>{house.country}</strong></p>

@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap-icons": "^1.11.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-carousel-slider": "^2.0.13",
     "react-dom": "^18.2.0",
@@ -23,8 +24,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+
+"homepage": "https://your-username.github.io/airbnb",
+
   "eslintConfig": {
     "extends": [
       "react-app",
